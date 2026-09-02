@@ -1,0 +1,28 @@
+{
+  "ruleset_id": "LM-PCR-Prototype-v1",
+  "status": "prototype-needs-legal-verification",
+  "scope": "Retail pre-packaged FMCG demo scope only",
+  "rules": [
+    {
+      "rule_id": "LM-R001",
+      "field": "mrp",
+      "label": "Maximum Retail Price (MRP)",
+      "required": true,
+      "verification_note": "Prototype presence/parsability check. Exact legal wording/applicability must be verified against current official rules."
+    },
+    {
+      "rule_id": "LM-R002",
+      "field": "net_quantity",
+      "label": "Net Quantity",
+      "required": true,
+      "verification_note": "Prototype presence/unit check. Exact unit and category exceptions require legal verification."
+    },
+    {
+      "rule_id": "LM-R003",
+      "field": "manufacturer",
+      "label": "Manufacturer / Packer / Importer Details",
+      "required": true,
+      "verification_note": "Prototype presence check only. Exact entity/address requirements require legal verification."
+    }
+  ]
+}
